@@ -1,0 +1,93 @@
+.wrapper {
+    margin-top: 100px;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+    color: #fff;
+    font-size: 1.75rem;
+    margin-bottom: 50px;
+}
+
+.icon {
+    display: inline-block;
+    font: normal normal normal 1em / 1 "LineIcons";
+    flex-shrink: 0;
+    speak: none;
+    text-transform: none;
+    vertical-align: -0.125em;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    color: var(--bs-color);
+}
+
+
+.container {
+    padding-top: 30px;
+    display: flex;
+    border-left: solid 2px #2e344e;
+}
+
+.resumeSummary {
+    align-self: flex-start;
+    flex: 0 0 220px;
+    max-width: 220px;
+    padding-left: 20px;
+    position: relative;
+
+}
+
+.resumeSummary::before {
+    background: #10121b;
+    border: 3px solid #2e344e;
+    border-radius: 100px;
+    content: "";
+    height: 15px;
+    left: -9px;
+    position: absolute;
+    top: 6px;
+    width: 15px;
+}
+
+
+.resumeYear {
+    color: #a4acc4;
+    margin-bottom: 0;
+}
+
+.resumeDetails {
+    padding-left: 50px;
+    position: relative;
+}
+
+.resumeDetails::before {
+    background: #2e344e;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 30px;
+}
+
+.resumeCompany {
+    color: #fff;
+
+}
+
+p {
+    margin-bottom: 0;
+}
+
+h5 {
+    margin: 0;
+    padding: 0;
+    color: var(--nav-bg-active-link);
+}
+
+h5:before {
+    display: none;
+}

@@ -1,0 +1,42 @@
+.skill {
+    margin: 20px 0;
+}
+
+.progress {
+
+}
+
+.progressInner {
+    align-items: center;
+    display: flex;
+}
+
+.progressTitle {
+    font-weight: normal;
+    margin-bottom: 0;
+    color: white;
+}
+
+.progressPercentage {
+    flex: 0 0 60px;
+}
+
+.progressContainer {
+    background: #2e344e;
+    display: block;
+    height: 6px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.progressActive {
+    background: #037fff;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transition: all 1s cubic-bezier(.01,.57,.68,1.05) 0s;
+    z-index: 10;
+    display: block;
+}

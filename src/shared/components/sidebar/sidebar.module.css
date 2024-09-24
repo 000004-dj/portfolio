@@ -1,0 +1,142 @@
+.wrapper {
+    padding-block: 20px;
+    overscroll-behavior: contain;
+    scrollbar-gutter: auto;
+    flex: 1 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    height: 100vh;
+    background: var(--nav-bg-color);
+    border-right: var(--nav-border);
+    transition: transform .4s ease-out;
+    position: relative;
+    max-width: 250px;
+    z-index: 10;
+}
+
+.hidden {
+    transform: translateX(-100%);
+}
+
+ul {
+    width: 100%;
+}
+
+.item {
+    position: relative;
+    list-style: none;
+}
+
+.item a {
+    color: var(--bs-color);
+    display: block;
+    font-size: .94rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    overflow: hidden;
+    padding: 15px 0;
+    position: relative;
+    text-transform: uppercase;
+    transition: all .4s ease-out;
+    z-index: 10;
+}
+
+.active {
+    background: var(--nav-bg-active-link);
+}
+
+.item a::before {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: var(--nav-bg-link-hover);
+    transition: left 0.5s ease;
+}
+
+a:hover::before {
+    left: 0;
+}
+
+.miHeaderImage {
+
+    border-bottom: var(--nav-border);
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.miHeaderImage p {
+    background: #000;
+
+    border: var(--nav-avatar-border);
+    border-radius: 1000px;
+    display: inline-block;
+    height: 200px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 200px;
+}
+
+img {
+    width: 100%;
+    transform: translateY(10px);
+}
+
+.miHeaderCopyright {
+    border-top: var(--nav-border);
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 0;
+    padding: 15px 10px;
+    text-align: center;
+    width: 100%;
+}
+
+.toggleButton {
+    align-items: center;
+    background: var(--nav-bg-color);
+    font-size: 1.6rem;
+    height: 50px;
+    padding: 0;
+    position: absolute;
+    text-align: center;
+    right: -50px;
+    top: 20px;
+    width: 50px;
+    border: var(--nav-border);
+    border-radius: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+}
+
+button {
+    color: var(--bs-color);
+    font-family: Nunito, sans-serif;
+}
+
+@media (min-width: 1100px) {
+    .toggleButton {
+        display: none;
+    }
+}
+
+@media (max-width: 1100px) {
+    .miHeaderImage p {
+        height: 150px;
+        width: 150px;
+    }
+    .wrapper {
+        position: fixed;
+        flex: 1 1 auto;
+    }
+}
+

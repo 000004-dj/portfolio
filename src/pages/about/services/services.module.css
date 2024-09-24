@@ -1,0 +1,22 @@
+.wrapper {
+    padding-top: 100px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+    max-width: var(--bs-content-max-width);
+    max-height: 100%;
+}
+.wrapper:first-child {
+    left: 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+

@@ -1,0 +1,12 @@
+.cardsWrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 80vh;
+    width: 100%;
+    overflow: scroll;
+}

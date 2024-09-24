@@ -1,0 +1,55 @@
+.wrapper {
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.wrapper h2 {
+    font-weight: 700;
+    padding-bottom: 15px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.wrapper h2:before {
+    border-radius: 100px;
+    bottom: 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: auto;
+    background: rgba(3, 127, 255, .3);
+    width: 100px;
+}
+
+.wrapper h2:after {
+    border-radius: 100px;
+    bottom: 0;
+    content: "";
+    height: 5px;
+    left: 0;
+    position: absolute;
+    top: auto;
+    background: #037fff;
+    width: 35px;
+}
+
+.wrapper span {
+    color: rgba(25, 29, 43, .44);
+    display: inline-block;
+    font-size: 5rem;
+    font-weight: 900;
+    left: 0;
+    line-height: 1;
+    position: absolute;
+    text-transform: uppercase;
+    top: 100%;
+    -webkit-transform: translateY(-40%);
+    transform: translateY(-40%);
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+    z-index: -1;
+}

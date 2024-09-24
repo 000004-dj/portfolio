@@ -1,0 +1,17 @@
+@import "font-faces.css";
+
+:root {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    --bs-color: #a4acc4;
+    --bs-font-familly: Nutinon sans-serif;
+    --bs-bg-color: #10121b;
+    --bs-text-font-size: 18px;
+    --bs-content-max-width: 1350px;
+    --nav-bg-color: #1a1d2b;
+    --nav-border: solid 1px #2e344e;
+    --nav-bg-active-link: #037fff;
+    --nav-bg-link-hover: rgba(3, 127, 255, .2);
+    --nav-avatar-border: 7px solid #2e344e;
+}

@@ -1,0 +1,39 @@
+.container {
+    background: #191d2b;
+    border: 1px solid #2e344e;
+    border-top: 5px solid #2e344e;
+    padding: 30px;
+    transition: all .4s ease-out;
+    flex: 1 1 32%;
+    min-width: 300px;
+    max-height: 100%;
+}
+
+.container:hover {
+    border-top-color: #037fff;
+}
+
+.icon {
+    color: #037fff;
+    display: inline-block;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+h5::before {
+    background: #2e344e;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    top: auto;
+    width: 50px;
+}

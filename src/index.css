@@ -1,0 +1,58 @@
+@import 'shared/styles/root.css';
+
+:root {
+  font-family: Nunito, sans-serif;
+  line-height: 1.5;
+  font-weight: lighter;
+  font-size: var(--bs-text-font-size);
+  color-scheme: light dark;
+  color: var(--bs-color);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+#root {
+  width: 100%;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: inherit;
+}
+
+body {
+  background: #10121b;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 1.43rem;
+  line-height: 2.14rem;
+}
+
+h6 {
+  font-size: 1.14rem;
+  line-height: 1.857rem;
+}
+
+button {
+  cursor: pointer;
+}
