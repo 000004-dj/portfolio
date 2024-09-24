@@ -1,7 +1,7 @@
 import styles from './contact.module.css'
 import React from 'react';
 
-export const Contact = () => {
+const Contact = () => {
 	return (
 		<div className={styles.container}>
 			<div className={styles.sectionTitle}>
@@ -136,3 +136,4 @@ export const Contact = () => {
 	);
 };
 
+export default Contact
