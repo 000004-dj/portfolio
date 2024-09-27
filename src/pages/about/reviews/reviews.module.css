@@ -3,7 +3,7 @@
     transition: all .4s ease-out;
     flex: 1 1 32%;
     max-width: var(--bs-content-max-width);
-    /*overflow: hidden;*/
+    overflow: hidden;
     min-width: 100%;
     padding: 0 50px;
 }

@@ -36,7 +36,7 @@ ul {
     font-size: .94rem;
     font-weight: 600;
     letter-spacing: 1px;
-    /*overflow: hidden;*/
+    overflow: hidden;
     padding: 15px 0;
     position: relative;
     text-transform: uppercase;

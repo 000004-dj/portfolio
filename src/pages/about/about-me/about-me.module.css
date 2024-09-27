@@ -23,7 +23,7 @@
 }
 
 .aboutWrapper img {
-    /*overflow: clip;*/
+    overflow: clip;
     vertical-align: middle;
     width: 100%;
     height: 100%;

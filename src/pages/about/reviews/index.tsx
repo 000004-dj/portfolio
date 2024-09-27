@@ -35,7 +35,7 @@ export const Reviews = () => {
 					autoplayDelay={3000}
 					activeSlideIndex={activeSlideIndex}
 					onRequestChange={setActiveSlideIndex}
-					// innerProps={{ style: { overflow: 'hidden' } }}
+					innerProps={{ style: { overflow: 'hidden' } }}
 					forwardBtnProps={{ style: { display: 'none' } }}
 					backwardBtnProps={{ style: { display: 'none' } }}
 				>
