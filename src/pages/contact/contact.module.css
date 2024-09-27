@@ -10,9 +10,9 @@
     flex-wrap: wrap;
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
-    margin-left: calc(var(--bs-gutter-x)* -.5);
-    margin-right: calc(var(--bs-gutter-x)* -.5);
-    margin-top: calc(var(--bs-gutter-y)* -1);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-top: calc(var(--bs-gutter-y) * -1);
     height: 100vh;
 }
 
@@ -67,7 +67,6 @@
 .formField textarea {
     resize: vertical;
 }
-
 
 .button {
     background: #037fff;
@@ -157,12 +156,15 @@
     .container {
         margin-top: 40px;
     }
+
     .column {
         margin: 0;
     }
+
     .column:first-child {
         margin: 0;
     }
+
     .row {
         height: auto;
         flex-direction: column;
@@ -175,7 +177,16 @@
         gap: 10px;
         text-align: center;
     }
+
     .contactInfoIcon {
         margin-right: 0;
     }
+}
+
+.customTitle h2{
+    font-size: 2rem;
+}
+
+.customTitle span {
+    font-size: 2.5rem;
 }

@@ -10,7 +10,7 @@ const Contact = () => {
 	return (
 		<div className={styles.container}>
 
-			<Title title={'Contact Me'}/>
+			<Title title={'Contact Me'} extraClass={styles.customTitle}/>
 
 			<div className={styles.row}>
 
