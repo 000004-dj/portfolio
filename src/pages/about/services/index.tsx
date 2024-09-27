@@ -15,7 +15,7 @@ export const Services = () => {
 			<div className={classes.cards}>
 				{
 					services.map(
-						card => (<ServicesCard title={card.title} text={card.text} icon={<HiOutlinePaintBrush />}/>)
+						(card, index) => (<ServicesCard title={card.title} text={card.text} icon={<HiOutlinePaintBrush />} key={index}/>)
 					)
 				}
 			</div>

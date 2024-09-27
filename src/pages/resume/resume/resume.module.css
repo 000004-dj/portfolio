@@ -91,3 +91,19 @@ h5 {
 h5:before {
     display: none;
 }
+
+@media (max-width: 880px) {
+    .container {
+        flex-direction: column;
+    }
+    .resumeSummary {
+        flex: 0 0 0;
+        padding-left: 50px;
+    }
+    .resumeDetails h5 {
+        font-size: 18px;
+    }
+    .resumeYear {
+        font-size: 15px;
+    }
+}

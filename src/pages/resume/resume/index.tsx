@@ -19,7 +19,7 @@ export const WorkExperience = () => {
 
 			{
 				workExperience.map(
-					place => {
+					(place, index) => {
 						return (
 							<WorkPlace
 								fromYear={place.fromYear}
@@ -27,6 +27,7 @@ export const WorkExperience = () => {
 								workPlace={place.workPlace}
 								companyName={place.companyName}
 								description={place.description}
+								key={index}
 							/>
 						);
 					}

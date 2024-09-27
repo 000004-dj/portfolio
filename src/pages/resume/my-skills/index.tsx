@@ -12,8 +12,8 @@ export const MySkills = () => {
 			<div className={classes.wrapper}>
 				<div className={classes.content}>
 					{
-						skills.map(skill => {
-						return <Skill percentage={skill.percentage} title={skill.title}/>
+						skills.map((skill, index)=> {
+						return <Skill percentage={skill.percentage} title={skill.title} key={index}/>
 					})}
 
 				</div>

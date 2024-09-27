@@ -1,7 +1,7 @@
 import classes from './reviews.module.css';
 
 import ReactSimplyCarousel from 'react-simply-carousel';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { Title } from '../../../shared/ui/title';
 import { info } from '../../../myself-information';
@@ -16,11 +16,9 @@ export const Reviews = () => {
 	useEffect(() => {
 		if(window.screen.width < 1250) {
 			setItemsToShow(1)
-		}
-		else {
+		} else {
 			setItemsToShow(2)
 		}
-
 	}, [window.screen.width]);
 
 	return (
@@ -37,7 +35,7 @@ export const Reviews = () => {
 					autoplayDelay={3000}
 					activeSlideIndex={activeSlideIndex}
 					onRequestChange={setActiveSlideIndex}
-					innerProps={{ style: { overflow: 'hidden' } }}
+					// innerProps={{ style: { overflow: 'hidden' } }}
 					forwardBtnProps={{ style: { display: 'none' } }}
 					backwardBtnProps={{ style: { display: 'none' } }}
 				>

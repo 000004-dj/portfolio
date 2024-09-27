@@ -9,6 +9,8 @@
     padding-bottom: 15px;
     position: relative;
     text-transform: uppercase;
+    font-size: 2.57rem;
+    line-height: 3.2857rem;
 }
 
 .wrapper h2:before {

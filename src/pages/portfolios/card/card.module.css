@@ -5,6 +5,7 @@
     min-width: 200px;
     padding: 0 12px;
     margin: 30px 0 0 0;
+    z-index: 2;
 }
 
 .imageContainer {

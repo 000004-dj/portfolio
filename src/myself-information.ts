@@ -87,7 +87,21 @@ export const info: MyselfInformation = {
 			},
 		]
 	},
-
+	contact: {
+		phone1: "+48 731 380 234",
+		phone2: "+48 794 011 710",
+		email1: "samuilprytchyn@gmail.com",
+		email2: "samuil-18@tut.by",
+		address: "Poland, Gdańsk, Aleja Rzeczypospolitej 4, 80-369"
+	},
+	portfolioCards: [
+		{
+			title: "Social Media",
+			description: "SM application like INSTAGRAM",
+			image: "https://tf-react-chester.vercel.app/images/portfolio-image-1.jpg",
+			link: ""
+		}
+	]
 };
 
 interface MyselfInformation {
@@ -124,5 +138,20 @@ interface MyselfInformation {
 			companyName: string,
 			description: string
 		}[]
-	}
+	},
+	contact: {
+		phone1: string,
+		phone2: string,
+		email1: string,
+		email2: string,
+		address: string
+	},
+	portfolioCards: [
+		{
+			title: string,
+			description: string,
+			image: string,
+			link: string
+		}
+	]
 }

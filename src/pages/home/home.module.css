@@ -13,6 +13,7 @@
     width: 70%;
 }
 
+
 .userName {
     color: var(--nav-bg-active-link);
 }
@@ -40,4 +41,17 @@
     height: 50px;
     width: 50px;
     border: solid var(--bs-color) 3px;
+}
+
+@media (max-width: 750px) {
+    .miHomeContent {
+        width: 100%;
+    }
+    .miHomeContent h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+   .miHomeContent p{
+       margin-bottom: 20px;
+   }
 }

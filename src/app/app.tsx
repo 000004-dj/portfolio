@@ -1,8 +1,4 @@
-import classes from './app.module.css';
-
-import Particles, { initParticlesEngine } from '@tsparticles/react';
-import React, { Suspense, useEffect } from 'react';
-import { loadSlim } from '@tsparticles/slim';
+import React, { Suspense } from 'react';
 import { Route, Routes } from 'react-router-dom';
 
 import Home from '../pages/home';
@@ -12,28 +8,13 @@ import Contact from '../pages/contact';
 import Portfolios from '../pages/portfolios';
 import { ROUTES } from '../shared/constans/routes';
 import { DefaultLayout } from './layouts/default-layout';
+import { LinesBackground } from '../shared/ui/backgrounds';
 
 function App() {
-	useEffect(() => {
-		initParticlesEngine(async (engine) => {
-			await loadSlim(engine);
-		})
-			.then(() => {
-				console.log('background start');
-			})
-			.catch(() => console.error('background error'));
-	}, []);
 
 	return (
 		<div>
-			<div className={classes.particlesContainer}>
-				<Particles
-					id="tsparticles"
-					url="../public/particles.json"
-					className={classes.particles}
-				/>
-			</div>
-
+			<LinesBackground/>
 			<div>
 				<Routes>
 					<Route path={ROUTES.root} element={<DefaultLayout/>}>
@@ -50,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+
