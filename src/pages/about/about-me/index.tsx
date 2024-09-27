@@ -15,7 +15,7 @@ export const AboutMe = () => {
 
 				<div className={classes.imageContainer}>
 					<div className={classes.aboutImage}>
-						<img className={classes.image} src="../../../../public/images/about-me.jpeg" alt="https://github.com/000004-dj/portfolio/blob/main/public/images/about-me.jpeg?raw=true"/>
+						<img className={classes.image} src="https://github.com/000004-dj/portfolio/blob/main/public/images/about-me.jpeg?raw=true" alt="aboutimage"/>
 					</div>
 				</div>
 
