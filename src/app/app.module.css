@@ -1,16 +1,16 @@
 .wrapper {
     display: flex;
     width: 100%;
-    /*overflow: clip;*/
+    overflow: clip;
     flex-wrap: nowrap;
     z-index: 10;
 }
 
 .page {
     display: flex;
-    /*overflow: clip auto;*/
-    /*overscroll-behavior: contain;*/
-    /*scrollbar-gutter: auto;*/
+    overflow: clip auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: auto;
     gap: 20px;
     flex: 1 1 auto;
     flex-direction: column;
@@ -27,7 +27,8 @@
 
 @media (max-width: 750px) {
     .content {
-        padding: 0 15px;
+        padding: 0 15px 50px 15px;
     }
+
 }
 

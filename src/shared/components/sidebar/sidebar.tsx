@@ -23,7 +23,7 @@ export const Sidebar = () => {
 				{ isSidebarOpen ? <IoMdClose/> : <IoIosMenu/> } </button>
 
 			<div className={classes.miHeaderImage}>
-				<p> <img src="../../../../public/images/avatar.jpeg" alt="brandimage"/> </p>
+				<p> <img src="../../../../public/images/avatar.jpeg" alt="https://github.com/000004-dj/portfolio/blob/main/public/images/avatar.jpeg?raw=true"/> </p>
 			</div>
 
 			<ul>

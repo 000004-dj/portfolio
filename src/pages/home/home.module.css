@@ -54,4 +54,8 @@
    .miHomeContent p{
        margin-bottom: 20px;
    }
+   .wrapper {
+       height: 90vh;
+       max-height: 100vh;
+   }
 }
