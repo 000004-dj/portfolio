@@ -8,7 +8,7 @@
     align-items: center;
     text-align: center;
     justify-content: space-between;
-    height: 100vh;
+    height: 100dvh;
     background: var(--nav-bg-color);
     border-right: var(--nav-border);
     transition: transform .4s ease-out;

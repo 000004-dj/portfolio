@@ -13,7 +13,7 @@
     margin-left: calc(var(--bs-gutter-x) * -.5);
     margin-right: calc(var(--bs-gutter-x) * -.5);
     margin-top: calc(var(--bs-gutter-y) * -1);
-    height: 100vh;
+    height: 100dvh;
 }
 
 .column {
